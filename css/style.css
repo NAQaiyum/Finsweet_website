@@ -322,12 +322,11 @@ color: white;
 
 .image-box .overlay h4{
     width: 313px;
-padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .o-box2 .overlay{ 
-top: 100%;
-border-radius: 20px;
+    top: 100%;
 }
 
 .o-box2:hover .overlay{
