@@ -4,171 +4,582 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Finsweet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,800;1,800&display=swap"
-      rel="stylesheet">
+  <title>project 2
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,800;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-   <!--navbar-->
-   <nav class="navbar navbar-expand-lg ">
-     <div class="container">
-       <a class="navbar-brand" href="#">
-         <img src="./images/logo.png" alt="">
-       </a>
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-           <li class="nav-item">
-             <a class="nav-link" href="#">Home</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">About us</a>
-           </li>
+  <!-- ===========================navbar html start=========================== -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
 
-           <li class="nav-item">
-             <a class="nav-link" href="#">Features</a>
-           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
 
-           <li class="nav-item">
-             <a class="nav-link" href="#">Pricing</a>
-           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
 
-           <li class="nav-item">
-             <a class="nav-link" href="#">FAQ</a>
-           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
 
-           <li class="nav-item">
-             <a class="nav-link" href="#">Blog</a>
-           </li>
-           <button type="button" class="btn btn-primary">Contact us</button>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+       <div class="nav-btn">
+        <button type="button" class="btn btn-primary">Contact us</button>
        </div>
-     </div>
-   </nav>
-   <!-- navbar -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ===========================navbar html emd=========================== -->
+  <!-- ===========================banner html start=========================== -->
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>
+            Building stellar websites for early startups
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <a href="#">View our work</a>
+          <a class="bt-2" href="#">View Pricing
+         <i class="fa-solid fa-arrow-right-long icon"></i>
+          </a>
+        </div>
+        <div class="col-lg-6 banner-img">
+          <img src="./images/banner.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===========================banner html end=========================== -->
+  <!-- ===========================work section start=========================== -->
 
-   <!--banner -->
-   <section class="banner">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-6">
-           <h1>
-             Building stellar websites for early startups
-           </h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-           <a href="#">View our work</a>
-           <a class="bt-2" href="#">View Pricing
-             <i class="fa-solid fa-arrow-right icon"></i>
-           </a>
-         </div>
-         <div class="col-lg-6">
-           <img src="./images/banner.png" alt="">
-         </div>
-       </div>
-     </div>
-   </section>
-   <!--banner -->
-
-   <!-- work section -->
-   <section class="work">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-6">
-           <h2>How we work</h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-           <a class="bt-3" href="#">Get in touch with us
-             <i class="fa-solid fa-arrow-right icon"></i>
-           </a>
-         </div>
-         <div class="col-lg-6">
-           <div class="box">
-             <div class="left">
-               <img src="./images/pointer 1.png" alt="">
-               <h3>Strategy</h3>
-               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-               <img src="./images/pointer 1 (2).png" alt="">
-               <h3>Design</h3>
-               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-             </div>
-             <div class="right">
-               <img src="./images/pointer 1 (1).png" alt="">
-               <h3>Wireframing</h3>
-               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-               <img src="./images/pointer 1 (3).png" alt="">
-               <h3>Development</h3>
-               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     </div>
-   </section>
-
-   <!-- work section -->
-
-   <!-- project section start -->
-   <section class="project">
-     <div class="container">
-       <div class="heading">
-         <div class="box">
-           <h2>View our projects</h2>
-           <a class="bt-3" href="#">View More
-             <i class="fa-solid fa-arrow-right icon"></i>
-           </a>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-lg-8 project-box">
-           <img src="./images/project1.png" alt="">
-           <div class="overlay">
-             <h4>Workhub office Webflow Webflow Design</h4>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga </p>
-             <a class="bt-3" href="#">View project
-               <i class="fa-solid fa-arrow-right icon"></i>
-             </a>
-           </div>
-         </div>
-         <div class="col-lg-4 ">
-           <div class="image-box">
-           <div class="ov-box project-box">
-           <img src="./images/project2.png" alt="">
-           <div class="overlay">
-             <h4>Unisaas Website 
-               Design</h4>
-     
-             <a class="bt-3" href="#">View portfilo
-               <i class="fa-solid fa-arrow-right icon"></i>
-             </a>
-           </div>
+  <section class="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>How we work</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <a class="bt-3" href="#">Get in touch with us
+            <i class="fa-solid fa-arrow-right icon"></i>
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <div class="box">
+            <div class="left">
+              <img src="./images/pointer 1.png" alt="">
+              <h3>Strategy</h3>
+              <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+              <img src="./images/pointer 1 (2).png" alt="">
+              <h3>Design</h3>
+              <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+            </div>
+            <div class="right">
+              <img src="./images/pointer 1 (1).png" alt="">
+              <h3>Wireframing</h3>
+              <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+              <img src="./images/pointer 1 (3).png" alt="">
+              <h3>Development</h3>
+              <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+            </div>
           </div>
-          <div class="ov-box project-box o-box2">
-           <img src="./images/project3.png" alt="">
-           <div class="overlay">
-             <h4>Unisaas Website 
-               Design</h4>
-     
-             <a class="bt-3" href="#">View portfilo
-               <i class="fa-solid fa-arrow-right icon"></i>
-             </a>
-           </div>
-             </div>
-           </div>
-         </div>
-       </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ===========================work section end=========================== -->
+  <!-- ===========================project section start=========================== -->
+  <section class="project">
+    <div class="container">
+      <div class="heading">
+        <div class="box">
+          <h2>View our projects</h2>
+          <a class="bt-3" href="#">View More
+            <i class="fa-solid fa-arrow-right icon"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 project-box">
+          <img src="./images/project1.png" alt="">
+          <div class="overlay">
+            <h4>Workhub office Webflow Webflow Design</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga </p>
+            <a class="bt-3" href="#">View project
+              <i class="fa-solid fa-arrow-right icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 ">
+          <div class="image-box">
+            <div class="ov-box project-box">
+              <img src="./images/project2.png" alt="">
+              <div class="overlay">
+                <h4>Unisaas Website
+                  Design</h4>
+
+                <a class="bt-3" href="#">View portfilo
+                  <i class="fa-solid fa-arrow-right icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="ov-box project-box o-box2">
+              <img src="./images/project3.png" alt="">
+              <div class="overlay">
+                <h4>Unisaas Website
+                  Design</h4>
+
+                <a class="bt-3" href="#">View portfilo
+                  <i class="fa-solid fa-arrow-right icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================feature section start=========================== -->
+  <section class="feature">
+    <div class="container">
+      <h4>Features</h4>
+      <h2>Design that solves problems, one product at a time</h2>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card">
+            <img src="./images/Icon.png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">Uses Client First</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Icon (1).png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">Two Free Revision Round</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/icon4.png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">Template Customization</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Icon3.png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">24/7 Support</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Vector (2).png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">Quick Delivery</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Icon (2).png" class="card-img-top" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title">Hands-on approach</h5>
+              <p class="card-text">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib
+                turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===========================feature section end=========================== -->
+
+  <!-- ===========================clients section start=========================== -->
+
+  <section class="clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>What our clients say about us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+
+        </div>
+        <div class="col-lg-8 cl-p">
+          <h3>"The best agency we’ve worked with so far. They understand our product and are able to add new features
+            with a great focus."</h3>
+          <div class="box">
+            <div class="left">
+              <img src="./images/client.png" alt="">
+            </div>
+            <div class="right">
+              <h5>Jenny Wilson</h5>
+              <p>Vice President</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===========================clients section end=========================== -->
+  <!-- ===========================FAQ section start=========================== -->
+
+  <section class="faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 faq-question">
+          <h2>Frequently asked questions</h2>
+          <a class="bt-3" href="#">Contact us for more info
+            <i class="fa-solid fa-arrow-right icon"></i>
+          </a>
+        </div>
+        <div class="col-lg-8">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <span>01</span>
+                  How much time does it take?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span>02</span>
+                  What is your class naming convention?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span>03</span>
+                  How do you communicate?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  <span>04</span>
+                  I have a bigger project. Can you handle it?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. .
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                  <span>05</span>
+                  What is your class naming convention?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================FAQ section end=========================== -->
+
+  <!-- ===========================contact section start=========================== -->
+
+  <section class="contact">
+    <div class="container">
+      <div class="row gx-0">
+        <div class="col-lg-6">
+          <div class="left">
+            <img src="./images/contact.png" alt="">
+            <div class="overlay">
+              <h3>Building stella r websites for early startups</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua ut enim.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right">
+            <h4>Send inquiry</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Email" required>
+              <input type="text" placeholder="Paste your Figma design URL" required>
+            </form>
+            <button type="submit">Send inquiry </button>
+            <div class="common-bt">
+              <button class="cm-bt">
+                Get in touch with us
+                <i class="fa-solid fa-arrow-right icon"></i>
+              </button>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ===========================contact section end=========================== -->
+  <!-- ===========================blog section start=========================== -->
+
+  <section class="blog">
+    <div class="container">
+ <div class="heading2">
+  <h2>Our blog</h2> 
+ </div>
+      <div class="row ">
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/card-img.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">19 Jan 2022</h5>
+              <h4>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h4>
+              <p class="card-text">See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                attract</p>
+              <div class="common-bt">
+                <button class="cm-bt">
+                  Read More
+                  <i class="fa-solid fa-arrow-right icon"></i>
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/card-img-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">19 Jan 2022</h5>
+              <h4>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h4>
+              <p class="card-text">See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                attract</p>
+              <div class="common-bt">
+                <button class="cm-bt">
+                  Read More
+                  <i class="fa-solid fa-arrow-right icon"></i>
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/card-ing3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">19 Jan 2022</h5>
+              <h4>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h4>
+              <p class="card-text">See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                attract</p>
+              <div class="common-bt">
+                <button class="cm-bt">
+                  Read More
+                  <i class="fa-solid fa-arrow-right icon"></i>
+                </button>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <!-- ===========================blog section end=========================== -->
+  <!-- ===========================footer section start=========================== -->
+
+  <footer class="footer">
+<div class="container">
+  <div class="row gx-0">
+    <div class="col-lg-6">
+<div class="header">
+  <img src="./images/logo.png" alt="">
+  <p>We are always open to discuss your project and improve your online presence.</p>
+</div>
+<div class="footer-box">
+  <div class="left">
+    <h4>Email me at</h4>
+    <a href="#">contact@website.com</a>
+  </div>
+  <div class="right">
+    <h4>Call us</h4>
+    <a href="#">0927 6277 28525</a>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-6">
+     <div class="footer-h">
+      <h2>Lets Talk!</h2>
+      <p class="para">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+      <ul>
+       <li>
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+      </a>
+       </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+          </a>
+          </li>
+      </ul>
      </div>
-   </section>
+    </div>
+  </div>
+  </div>
 
-  <!--project section -->
+  </footer>
 
+  <footer class="footer2">
+    <div class="container">
+      <div class="row 
+      copy">
+        <div class="col-lg-7 copy-2">   
+          <h5>Copyright 2022, Finsweet.com</h5>
+        </div>
+        <div class="col-lg-5">  
+            <ul class="ul-2">
+          <li>
+            <a  href="#">Home</a>
+          </li>
+          <li>
+            <a  href="#">About us</a>
+          </li>
+  
+          <li>
+            <a  href="#">Features</a>
+          </li>
+  
+          <li>
+            <a  href="#">Pricing</a>
+          </li>
+  
+          <li>
+            <a  href="#">FAQ</a>
+          </li>
+  
+          <li>
+            <a  href="#">Blog</a>
+          </li></div>
+      </div>
+   
+  
+    </div>
+  </footer>
+
+  <!-- ===========================footer section end=========================== -->
+
+
+  <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
